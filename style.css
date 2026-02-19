@@ -1,0 +1,85 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 107, 0, 0.6); /* glow orange autour du logo */
+}
+
+h1 { color: #ff6b00; font-size: 3.5rem; margin: 10px 0; }
+h2 { color: #ff8c00; margin: 30px 0 15px; font-size: 2.2rem; }
+h3 { color: #ffa500; margin: 20px 0 10px; }
+
+section {
+  background: #111;
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+ul, ol {
+  text-align: left;
+  max-width: 600px;
+  margin: 15px auto;
+  padding-left: 30px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.btn {
+  background: #222;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #444;
+  transition: all 0.3s;
+}
+
+.btn:hover { background: #333; transform: translateY(-3px); }
+.btn.highlight {
+  background: #ff6b00;
+  border-color: #ff8c00;
+  color: #000;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  h1 { font-size: 2.8rem; }
+  .logo { width: 140px; }
+}
+.recipe-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 0 20px rgba(255, 107, 0, 0.4);
+}
+
